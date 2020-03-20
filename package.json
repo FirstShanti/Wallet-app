@@ -1,0 +1,34 @@
+{
+  "name": "knots_app",
+  "version": "1.0.0",
+  "description": "web_application",
+  "main": "./routes/index.js",
+  "scripts": {
+    "start": "node dotenv-server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "proxy": "http://localhost:5000",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "config": "^3.3.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "materialize-css": "^1.0.0",
+    "mongodb": "^3.5.4",
+    "mongoose": "^5.9.4",
+    "morgan": "^1.9.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "concurrently": "^5.1.0",
+    "nodemon": "^2.0.2"
+  }
+}

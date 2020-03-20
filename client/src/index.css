@@ -1,0 +1,135 @@
+@import "~materialize-css/dist/css/materialize.min.css";
+
+input.yellow-input {
+	border-bottom: 0.25px solid #E6EDC5 !important;
+	box-shadow: 0 0.25px 0 0 #E6EDC5!important;
+	color: #000;
+}
+
+input.yellow-input + label {
+	color: #000!important;
+}
+
+input.yellow-input:focus +label {
+	color: #E1B524!important;
+}
+
+input.yellow-input:focus {
+	border-bottom: 0.5px solid #E1B524!important;
+	box-shadow: 0 0.5px 0 0 #E1B524!important;
+}
+
+div.service_btn_add {
+	margin-top: 1rem; 
+	text-align: center!important;
+}
+
+div.navbar {
+	background-color: #708D91;
+	padding: 0 2rem;
+}
+
+a.btn {
+	background-color: #19DD89;
+	border-radius: 6px;
+}
+
+a.btn:hover {
+	background-color: #D31996;
+}
+
+button.btnAuth {
+	background-color: #19DD89;
+	border-radius: 6px;
+	text-align: center;
+}
+
+button.btnAuth:hover {
+	background-color: #D31996;
+}
+
+input.authInput {
+	border-bottom: 0.25px solid grey !important;
+	box-shadow: 0 0.25px 0 0 grey!important;
+	color: 000;
+}
+
+input.authInput + label {
+	color: gray!important;
+}
+
+input.authInput:focus +label {
+	color: #D31996!important;
+}
+
+input.authInput:focus {
+	border-bottom: 0.5px solid #D31996!important;
+	box-shadow: 0 0.5px 0 0 #D31996!important;
+}
+
+@media only screen and (max-width: 992px) {
+	.hide-on-med-and-down {
+    	display: block !important;
+	}
+}
+
+col.s6.offset-2 {
+    text-align: center;
+}
+
+.row .col.s6 {
+    width: auto;
+    text-align: center;
+}
+
+.deleteIcon {
+	width: 20px;
+	height: 20px;
+	transition: 2s;
+	fill: rgb(237,94,104);
+	font-style: bold;
+}
+
+.deleteIcon:hover {
+	transition: 1S;
+	transform: rotate(180deg);
+	/* Equal to rotateZ(45deg) */
+}
+
+.addIcon {
+	width: 25px;
+	height: 25px;
+	transition: 2s;
+	float: right;
+}
+
+.addIcon:hover {
+	transition: 1s;
+	transform: rotate(180deg); 
+	fill: rgb(25,221,137);/* Equal to rotateZ(45deg) */
+}
+
+.inputCount {
+	width: 25px !important;
+}
+
+input.inputCount {
+	background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #9e9e9e;
+    border-radius: 0;
+    outline: none;
+    height: auto; 
+    width: 100%;
+    font-size: 14px; 
+    margin: 0 0 0 0; 
+    padding: 0;
+    box-shadow: none;
+    box-sizing: content-box;
+    transition: box-shadow .3s, border .3s;
+    text-align: center;
+}
+
+.addCalculateBtn {
+
+}
